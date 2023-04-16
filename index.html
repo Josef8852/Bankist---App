@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title> Bankist-App</title>
+</head>
+
+<body>
+
+
+
+
+  <header>
+    <div class="container">
+      <div class="txt">
+        <p class="welcome">Log in to get started</p>
+      </div>
+      <div class="logo">
+        <img src="logo.png" alt="">
+      </div>
+      <div class="log-in">
+        <form action="" class="login">
+          <input type="text" placeholder="User" class="user" >
+          <input type="text" placeholder="PIN" class="pass" >
+          <button type="submit" class="sub"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <div class="balance">
+    <div class="container">
+      <div class="txt">
+        <p>Current Balance : </p>
+        <p>Today : <span class="date">0</span>  ,  <span class="time">0</span></p>
+      </div>
+      <div class="bal">
+        <p><span class="money">0</span> €</p>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <section class="data">
+    <div class="container">
+
+      <div class="list">
+    
+
+      </div>
+
+        <div class="operations">
+
+          <div class="transfer">
+            <p>Transfer money</p>
+            <form action="">
+              <input type="text" placeholder="transfer to" class="trans">
+              <input type="number" placeholder="amount" class="transAmount">
+              <button type="submit" class="submitTransfer"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+          </div>
+    
+          <div class="loan">
+            <p>Request Loan</p>
+            <form action="">
+              <input type="number" placeholder="amount" class="loanAmount">
+              <button type="submit" class="takeLoan"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+          </div>
+    
+          <div class="close">
+            <p>Close Account</p>
+            <form action="">
+              <input type="text" placeholder="Confirm User" class="closeUser">
+              <input type="text" placeholder="Confirm PIN" class="closePass">
+              <button type="submit" class="delete"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+          </div>
+
+              
+    </div>
+    <div class="info">
+      <div class="container">
+        <div class="txt">
+          <p>
+            IN <span class="in">0 €</span>  OUT <span class="out">0 €</span>  INTEREST <span class="interest"> 0  €</span> 
+            <span class="sort">Sort <i class="fa-solid fa-arrow-down"></i></span>
+          </p>
+        </div>
+    
+        <div class="time">
+          You will be logged out in  <span class="timer">0</span>
+        </div>
+      </div>
+   
+  
+    </div>
+
+        </div>
+     
+      
+
+  </section>                                                  
+
+
+ 
+
+
+  <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
